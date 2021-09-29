@@ -22,3 +22,24 @@ inside the root directory of the repo.
 prior to the app running.
 4. Run the app!
 
+## How to run tests
+
+To run tests source the file "test.R"
+
+This project includes two main tests:
+
+1. Module test on dropdowns
+2. Plot and Info card tests
+
+### Module test on dropdown
+
+This test validates that the intended value is returned from the module.
+
+### Plot and Info card tests
+
+This validates that both the map plot and info card outputs work on every single
+vessel type and vessel. It iterates through all combinations and validates no
+warnings or errors occurr. 
+
+If this test passes the user should be able to select any vessel type and vessel
+without experiencing crashes.
