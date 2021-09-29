@@ -1,0 +1,4 @@
+ignore/
+rsconnect/
+.Rhistory
+data/data.feather

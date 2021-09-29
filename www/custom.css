@@ -1,0 +1,28 @@
+/* Leaflet elements had a very high z-index which affected the functionality */
+
+.leaflet-top {
+  z-index: 0;
+}
+
+.leaflet-bottom {
+  z-index: 0;
+}
+
+/* Animated appsilon logo */
+
+#appsilon-logo {
+  transition-duration: 1s;
+  max-height: 70px;
+  display: block;
+  margin: auto;
+}
+
+#appsilon-logo:hover {
+  transition-duration: 1s;
+  fill: #0099F9;
+}
+
+/* Removes extra vertial margin */
+body {
+  margin: 0 10px !important;
+}
