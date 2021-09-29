@@ -47,7 +47,7 @@ semanticPage(
           "shiptype",
           NULL,
           NULL,
-          title = "Ship type"
+          title = "Vessel type"
         ),
         right = dropdown_ui(
           "vessel",
